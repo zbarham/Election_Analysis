@@ -2,7 +2,7 @@
 
 The purpose of this election audit analysis is to ensure the integrity of the election process by providing a detailed report on the election results. This report includes voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout. The analysis is based on the election_results.csv file and uses for loops, conditional statements, membership, and logical operators to achieve the desired results. The results are printed to the command line and saved to an election_results.txt file for further examination and documentation.
 
-*Command line output
+* Command line output
 
 ![Election Audit Results Screenshot](./analysis/Deliverable%201%20Print%20Screenshot%202023-05-13%20111337.png)
 
