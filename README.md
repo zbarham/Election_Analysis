@@ -15,7 +15,7 @@ The audit produced the following results, code shown to support and explain how 
   * Jefferson: 10.5% (38,855)
   * Denver: 82.8% (306,055)
   * Arapahoe: 6.7% (24,801)
-
+```python
 for county_name in county_votes:
     # Retrieve the county vote count and calculate the percentage
     votes = county_votes[county_name]
@@ -23,19 +23,19 @@ for county_name in county_votes:
 
     county_results = (
         f"{county_name}: {vote_percentage:.1f}% ({votes:,})\n")  # prints each county's vote count and percentage
-
+```
 * County with the largest number of votes: Denver
-
+```python
 if (votes > county_turnout):
     county_turnout = votes
     largest_county = county_name  # largest_county variable will hold the county with the largest turnout
-
+```
 
 * Candidate breakdown:
   * Charles Casper Stockham: 23.0% (85,213)
   * Diana DeGette: 73.8% (272,892)
   * Raymon Anthony Doane: 3.1% (11,606)
-
+```python
 for candidate_name in candidate_votes:
     # Retrieve vote count and percentage
     votes = candidate_votes.get(candidate_name)
@@ -43,7 +43,7 @@ for candidate_name in candidate_votes:
 
     candidate_results = (
         f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")  # prints each candidate's vote count and percentage
-
+```
 
 * Election winner: Diana DeGette with 272,892 votes and 73.8% of the total votes
 
